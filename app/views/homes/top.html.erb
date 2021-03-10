@@ -1,1 +1,22 @@
-<h1>hello</h1>
+<div class="container">
+  <div class="row">
+    <div class="mx-auto col-md-12">
+      
+      <h1>hello!</h1>
+      <p>このページはMeshiterroのリメイクです</p><br />
+      <p>楽しくCSSを学びましょう！</p><br />
+      <p>まずは下のボタンから新規登録もしくはログインしましょう👍</p>
+
+    <div class="col-3">
+      <div class="row">
+        <%= link_to "log_in", new_user_session_path, class:"btn btn-info btn-block mb-5 " %>
+      </div>
+      <div class="row">
+        <%= link_to "new_account", new_user_registration_path, class:"btn btn-success btn-block mb-5" %>
+      </div>
+    </div>
+
+    </div>
+  </div>
+</div>
+
